@@ -1,0 +1,1176 @@
+/** Main Font Style **/
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/** Font Size **/
+
+h1 {
+  font-size: 54px
+}
+
+h2 {
+  font-size: 36px
+}
+
+h3 {
+  font-size: 24px
+}
+
+p {
+  font-size: 16px
+}
+
+/** this will make sure that there are no padding for each section **/
+section {
+  padding: 0
+}
+
+/** background image for the body **/
+body {
+  background-image: url('../img/BG.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: inline-table;
+}
+
+.container1 {
+  width: 100%;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/** start of header **/
+
+.header {
+  background-color: #233a17;
+}
+
+.contact-number {
+  color: white;
+  margin-top: 10px
+}
+
+.social {
+  float: left
+}
+
+.email {
+  color: white;
+  margin-top: 10px
+}
+
+.emailadd {
+  float: right;
+  margin-left: auto;
+
+}
+
+.row1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.header-wrapper {
+  padding: 0 50px
+}
+/** end **/
+
+
+/** Start of Navbar **/
+
+.logo img {
+  width: auto;
+  height: 50px
+}
+
+.navbar-nav {
+  margin-left: auto
+}
+
+
+.samplecontainer {
+  height: 2000px
+}
+/** end **/
+
+/** Start of Banner **/
+
+.banner {
+  background-image: url('../img/Banner-BG.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 990px;
+  position: absolute;
+  text-align: center;
+  top: 50px;
+  z-index: 0;
+}
+
+.design1 {
+  background-image: url('../img/design1.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 990px;
+  position: absolute;
+  text-align: center;
+  top: 50px;
+  z-index: 2;
+}
+
+.design2 {
+  background-image: url('../img/design2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 990px;
+  position: absolute;
+  text-align: center;
+  top: 50px;
+  z-index: 3;
+}
+/** end **?
+
+/** Start of Overlay Content **/
+
+.overlay {
+  z-index: 5;
+}
+
+.text-overlay {
+  position: absolute
+}
+
+.centered {
+  z-index: 5;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay .text-overlay-content {
+  color: #ffffffb9 !important
+}
+
+.btn-our-product {
+  margin-top: 15px;
+  padding: 5px 35px 5px 35px;
+  border-radius: 15px
+}
+
+.sectionimage {
+  margin-top: 1000px;
+  text-align: center;
+}
+
+.sectionimage img {
+  width: 100%
+}
+
+.sectionimage1 {
+  margin-top: 100px;
+  text-align: center
+}
+/** end **/
+
+
+/** Start of about us **/
+
+.content {
+  padding-top: 100px
+}
+
+
+.aboutusimage1 img {
+  width: 100%
+}
+
+.aboutusimage2 img {
+  width: 100%
+}
+.aboutusimage3 img {
+  width: 100%
+}
+
+.aboutusimage1, .aboutusimage2, .aboutusimage3 {
+  padding-top: 200px
+}
+
+.content-wrapper-aboutus {
+  position: relative;
+  top: 40%
+}
+
+.aboutusimage2 .aboutus-content {
+  text-align: right;
+}
+
+.aboutusimage2 .aboutus-title {
+  text-align: right
+}
+/** end **/
+
+
+/** Start of our product **/
+
+.ourproduct-01 .productdesc-wrapper {
+  text-align: right;
+  margin-top: 180px
+}
+
+
+.ourproduct-01,
+.ourproduct-02 {
+  padding-top: 200px
+}
+
+.image01 {
+  position: absolute;
+  margin-top: -210px;
+  margin-left: 280px
+}
+
+.ourproduct-02 .productdesc-wrapper {
+  text-align: left;
+  margin-top: 180px
+}
+
+/** end **/
+
+/** Go to Top Button  **/
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 1px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #000000; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  width: 60px
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+/** end **/
+
+
+
+
+
+/** retailers **/
+
+.retailers {
+  background-color: #f8f7f7;
+  padding: 30px;
+  margin-top: 30px
+}
+
+/** footer **/
+
+.footer {
+  background-color: #2f2f2f;
+  padding: 15px
+}
+
+.copyright {
+  margin-top: auto;
+  margin-bottom: auto
+}
+
+/** parralax Bean Design **/
+
+.bean-design-wrapper {
+  z-index: -1;
+  position: absolute;
+  width: 100%
+}
+
+.bean-design-1 img {
+  margin-left: 80%
+}
+
+.bean-design-2 img {
+  margin-left: 5%
+}
+
+.bean-design-3 img {
+  margin-left: 70%
+}
+
+.bean-design-4 img {
+  margin-left: 70%
+}
+
+.bean-design-5 img {
+  margin-left: 5%
+}
+
+.bean-design-6 img {
+  margin-left: 70%
+}
+
+.bean-design-7 img {
+  margin-left: 80%
+}
+
+.bean-design-8 img {
+  margin-left: 5%
+}
+
+.bean-design-9 img {
+  margin-left: 60%
+}
+
+.rellax {
+  max-width: 1920px;
+  overflow: hidden;
+}
+
+.mobile-wrapper {
+  display: none
+}
+/** end **?
+
+
+/** Fade In Animation **/
+.hideme {
+  opacity:0;
+}
+
+
+/** Start of  animation **/
+.aboutusimage1,
+.aboutusimage2,
+.aboutusimage3 {
+  overflow: hidden;
+}
+
+.imgdiv .aboutusimage1 img {
+  position: relative;
+  transform: translate(-500px);
+
+}
+
+.hidemeright-left1 {
+  transform: translate(500px);
+  position: relative
+}
+
+.imgdiv .aboutusimage2 img {
+  position: relative;
+  transform: translate(500px);
+
+}
+
+.hidemeleft-right2 {
+  transform: translate(-500px);
+  position: relative
+}
+
+.imgdiv .aboutusimage3 img {
+  position: relative;
+  transform: translate(-500px);
+
+}
+
+.hidemeright-left3 {
+  transform: translate(500px);
+  position: relative
+}
+
+.fademein-1 {
+  transform: translate(0,-50px);
+  position: relative;
+}
+
+.product01-wrapper {
+  transform: translate(500px);
+  position: relative;
+}
+
+.ourproduct-01 .image-001 {
+  transform: translate(555px);
+  position: relative;
+}
+
+.ourproduct-01 .image01 {
+  transform: translate(290px)
+}
+
+.ourproduct-01 {
+  overflow: hidden;
+}
+
+.image02 {
+  position: absolute;
+  margin-top: -210px;
+  margin-left: 280px;
+  transform: translate(-280px)
+}
+
+.product02-wrapper {
+  position: relative;
+  transform: translate(-900px)
+}
+
+.image-002 {
+  position: relative;
+  transform: translate(-570px)
+}
+
+.ourproduct-03 {
+  padding-top: 200px
+}
+
+.product03-wrapper {
+  transform: translate(500px);
+  position: relative;
+}
+
+.ourproduct-03 .productdesc-wrapper {
+  margin-top: 180px;
+  text-align: right
+}
+
+.image-003 {
+  position: relative
+}
+
+.ourproduct-03 {
+  overflow: hidden;
+}
+
+.hide2,
+.hide3 {
+  opacity: 0;
+  transform: translate(300px);
+}
+
+.product-1-768,
+.product-2-768,
+.product-3-768,
+.product-4-768 {
+  display: none
+}
+/** end **/
+
+
+
+/** for Responsiveness **/
+@media only screen and (max-width: 1366px) {
+  .ourproduct-01 .image01{
+    transform: translate(525px);
+  }
+
+  .image02 {
+    transform: translate(0px);
+  }
+
+  .ourproduct-03 .image01{
+    transform: translate(275px);
+  }
+
+  .banner {
+    width: 1920;
+    height: 990px;
+    top: 50px;
+    z-index: 0;
+    overflow: hidden
+  }
+  
+  .design1 {
+    width: 1920px;
+    height: 990px;
+    top: 50px;
+    z-index: 2;
+    transform: translate(590px)
+  }
+  
+  .design2 {
+    width: 100%;
+    height: 990px;
+    top: 50px;
+    z-index: 3;
+  }
+
+  .bean-design-4 {
+    transform: translate(0px,250px)
+  }
+
+  .bean-design-2 {
+    transform: translate(0px,-350px);
+  }
+
+  .bean-design-1 {
+    transform: translate(0px,-250px)
+  }
+
+  .bean-design-3 {
+    transform: translate(0px,-388px);
+  }
+
+  .bean-design-5 {
+    transform: translate(0px,-325px);
+  }
+
+  .bean-design-6 {
+    transform: translate(0px,-415px);
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .centered {
+    top: 45%;
+    width: 900px;
+  }
+
+  .content-wrapper-aboutus {
+    top: 25%;
+  }
+
+  .bean-design-2 {
+    transform: translate(0,-200px);
+  }
+
+  .product01-wrapper img {
+    width: 400px
+  }
+
+  .ourproduct-01 .productdesc-wrapper {
+    margin-top: 95px;
+  }
+
+  .ourproduct-01 .image01 {
+    transform: translate(615px);
+  }
+  
+  .ourproduct-01 .image-001 {
+    transform: translate(525px,-100px);
+  }
+ 
+  .product02-wrapper img {
+    width: 400px
+  }
+
+  .ourproduct-02 .productdesc-wrapper {
+    margin-top: 100px;
+  }
+
+  .bean-03 {
+    float: right
+  }
+
+  .image02 {
+    transform: translate(150px);
+  }
+
+  .image-002 {
+    transform: translate(-490px,-100px);
+  }
+
+  .product03-wrapper img {
+    width: 400px
+  }
+
+  .ourproduct-03 .productdesc-wrapper {
+    margin-top: 100px
+  }
+
+  .ourproduct-03 .image01 {
+    transform: translate(345px);
+  }
+
+  .image-003 {
+    transform: translate(-56px,-100px);
+  }
+
+  .bean-design-1 {
+    transform: translate(0px,-386px);
+  }
+
+  .bean-design-3 {
+    transform: translate(0px,-80px);
+  }
+  
+  .bean-design-5 {
+    transform: translate(0px,-150px);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .sectionimage1 img {
+    width: 100%
+  }
+
+  .aboutusimage1 img {
+    width: 100%
+  }
+
+  .bean-design-1 {
+    transform: translate(0,108px);
+  }
+
+  .bean-design-2 {
+    transform: translate(-220px,65px);
+  }
+
+  .content-wrapper-aboutus {
+    top: 10%
+  }
+
+  .ourproduct-01,
+  .ourproduct-02,
+  .ourproduct-03 {
+    display: none
+  }
+
+  .product-1-768,
+  .product-2-768,
+  .product-3-768,
+  .product-4-768 {
+  display: block;
+  padding-top: 200px
+  }
+
+
+  .product-1-768 img {
+    width: 315px
+  }
+
+  .product-2-768 img {
+    width: 315px
+  }
+
+  .product-3-768 img {
+    width: 315px
+  }
+
+  .product-4-768 img {
+    width: 315px
+  }
+
+  .product-1-768 .img03 {
+    position: absolute;
+    transform: translate(200px,-100px);
+  }
+
+  .product-2-768 .img03 {
+    position: absolute;
+    transform: translate(200px,-100px);
+  }
+
+  .product-3-768 .img03 {
+    position: absolute;
+    transform: translate(200px,-100px);
+  }
+
+  .product-4-768 .img03 {
+    position: absolute;
+    transform: translate(200px,-100px);
+  }
+
+  .text-title,
+  .text-content {
+    text-align: center;
+  }
+
+  .text-wrapper {
+    padding-top: 50px
+  }
+
+  .centered {
+    top: 70%;
+    width: 700px;
+  }
+
+  .bean-design-3 {
+    transform: translate(0px,260px);
+  }
+
+  .bean-design-5 {
+    transform: translate(-330px,-510px);
+  }
+
+  .bean-design-7 {
+    transform: translate(0,-300px);
+  }
+
+  .bean-design-8 {
+    transform: translate(0,159px);
+  }
+
+  .bean-design-9 {
+    transform: translate(0,159px);
+  }
+
+  .bean-design-10 {
+    transform: translate(-360px,219px);
+  }
+
+  .aboutusimage2,
+  .aboutusimage3 {
+    padding-top: 400px
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  
+  .main-content-wrapper {
+    display: none
+  }
+
+  .mobile-wrapper {
+    display: block
+  }
+
+  .social {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .emailadd {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .banner {
+    height: 740px;
+    top: 100px;
+  }
+
+  .sectionimage {
+    margin-top: 700px;
+  }
+
+  .centered {
+    width: 380px;
+  }
+
+  .product-1-768 img,
+  .product-2-768 img,
+  .product-3-768 img,
+  .product-4-768 img {
+    width: 100%
+  }
+  .product-1-768 .row,
+  .product-2-768 .row,
+  .product-3-768 .row,
+  .product-4-768 .row {
+    margin-left: 0;
+    margin-right: 0
+  }
+
+  .product-1-768 .img03,
+  .product-2-768 .img03,
+  .product-3-768 .img03,
+  .product-4-768 .img03 {
+    transform: translate(15px,-115px);
+    width: 350px;
+  }
+
+  .content-wrapper-aboutus {
+    text-align: center
+  }
+
+  .aboutusimage2 .aboutus-content,
+  .aboutusimage2 .aboutus-title {
+    text-align: center
+  }
+
+  .imgdiv .aboutusimage1 img,
+  .imgdiv .aboutusimage2 img,
+  .imgdiv .aboutusimage3 img {
+    transform: translate(0px);
+  }
+
+  .aboutusimage2, .aboutusimage3 {
+    padding-top: 200px
+  }
+
+  .bean-design-1 {
+    transform: translate(0,160px);
+  }
+  .bean-design-3 {
+    transform: translate(0px,430px);
+  }
+  .bean-design-2 {
+    transform: translate(-220px,15px);
+  }
+  .bean-design-4 {
+    transform: translate(0px,410px);
+  }
+  .bean-design-5 {
+   display: none
+  }
+  .bean-design-6 {
+    transform: translate(0px,-835px);
+  }
+  .bean-design-8 {
+    transform: translate(0,550px);
+  }
+  .bean-design-9 {
+    transform: translate(0,300px);
+  }
+  .bean-design-10 {
+    display: none
+  }
+}
+
+@media only screen and (max-width: 411px) {
+  
+  .main-content-wrapper {
+    display: none
+  }
+
+  .mobile-wrapper {
+    display: block
+  }
+
+  .social {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .emailadd {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .banner {
+    height: 740px;
+    top: 100px;
+  }
+
+  .sectionimage {
+    margin-top: 700px;
+  }
+
+  .centered {
+    width: 380px;
+  }
+
+  .product-1-768 img,
+  .product-2-768 img,
+  .product-3-768 img,
+  .product-4-768 img {
+    width: 100%
+  }
+  .product-1-768 .row,
+  .product-2-768 .row,
+  .product-3-768 .row,
+  .product-4-768 .row {
+    margin-left: 0;
+    margin-right: 0
+  }
+
+  .product-1-768 .img03,
+  .product-2-768 .img03,
+  .product-3-768 .img03,
+  .product-4-768 .img03 {
+    transform: translate(15px,-115px);
+    width: 350px;
+  }
+
+  .content-wrapper-aboutus {
+    text-align: center
+  }
+
+  .aboutusimage2 .aboutus-content,
+  .aboutusimage2 .aboutus-title {
+    text-align: center
+  }
+
+  .imgdiv .aboutusimage1 img,
+  .imgdiv .aboutusimage2 img,
+  .imgdiv .aboutusimage3 img {
+    transform: translate(0px);
+  }
+
+  .aboutusimage2, .aboutusimage3 {
+    padding-top: 200px
+  }
+
+  .bean-design-1 {
+    transform: translate(0,160px);
+  }
+  .bean-design-3 {
+    transform: translate(0px,360px);
+  }
+  .bean-design-2 {
+    transform: translate(-220px,45px);
+  }
+  .bean-design-4 {
+    transform: translate(0px,330px);
+  }
+  .bean-design-5 {
+   display: none
+  }
+  .bean-design-6 {
+    transform: translate(0px,-835px);
+  }
+  .bean-design-8 {
+    transform: translate(0,550px);
+  }
+  .bean-design-9 {
+    transform: translate(0,300px);
+  }
+  .bean-design-10 {
+    display: none
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .centered {
+    width: 350px
+  }
+
+  .product-1-768 .img03 {
+    position: absolute;
+    transform: translate(15px,-100px);
+    width: 315px;
+  }
+  .product-2-768 .img03 {
+    position: absolute;
+    transform: translate(15px,-100px);
+    width: 315px;
+  }
+  .product-3-768 .img03 {
+    position: absolute;
+    transform: translate(15px,-100px);
+    width: 315px;
+  }
+  .product-4-768 .img03 {
+    position: absolute;
+    transform: translate(15px,-100px);
+    width: 315px;
+  }
+
+  .bean-design-4 {
+    transform: translate(0px,520px);
+  }
+  .bean-design-6 {
+    transform: translate(0px,-745px);
+  }
+  .bean-design-8 {
+    display: none
+  }
+  .bean-design-9 {
+    transform: translate(0,430px);
+  }
+  .bean-design-3 {
+    transform: translate(0px,480px);
+  }
+  .bean-design-2 {
+    transform: translate(-220px,-55px);
+  }
+}
+
+
+@media only screen and (max-width: 360px) {
+
+  .main-content-wrapper {
+    display: none
+  }
+
+  .centered {
+    width: 300px;
+  }
+
+  .row1 {
+    position: relative;
+    text-align: center
+  }
+
+  .social {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .emailadd {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .banner {
+    top: 100px;
+  }
+
+  .bean-design-wrapper {
+    display: block
+  }
+
+  .product-1-768 img,
+  .product-2-768 img,
+  .product-3-768 img,
+  .product-4-768 img {
+    width: 100%
+  }
+  .product-1-768 .row,
+  .product-2-768 .row,
+  .product-3-768 .row,
+  .product-4-768 .row {
+    margin-left: 0;
+    margin-right: 0
+  }
+
+  .product-1-768 .img03 {
+    position: absolute;
+    transform: translate(15px,-100px);
+    width: 300px;
+  }
+  .product-2-768 .img03 {
+    position: absolute;
+    transform: translate(15px,-100px);
+    width: 300px;
+  }
+  .product-3-768 .img03 {
+    position: absolute;
+    transform: translate(15px,-100px);
+    width: 300px;
+  }
+  .product-4-768 .img03 {
+    position: absolute;
+    transform: translate(15px,-100px);
+    width: 300px;
+  }
+
+  .content-wrapper-aboutus {
+    text-align: center
+  }
+
+  .aboutusimage2 .aboutus-content,
+  .aboutusimage2 .aboutus-title {
+    text-align: center
+  }
+
+  .banner {
+    height: 550px;
+  }
+
+  .sectionimage {
+    margin-top: 500px;
+  }
+
+  .imgdiv .aboutusimage1 img,
+  .imgdiv .aboutusimage2 img,
+  .imgdiv .aboutusimage3 img {
+    transform: translate(0px);
+  }
+
+  .aboutusimage2, .aboutusimage3 {
+    padding-top: 200px
+  }
+
+  .mobile-wrapper {
+    display:block
+  }
+
+  .bean-design-1 {
+    transform: translate(0,178px);
+  }
+
+  .bean-design-2 {
+    transform: translate(-220px,0px);
+  }
+
+  .bean-design-3 {
+    transform: translate(0px,380px);
+  }
+  .bean-design-4 {
+    transform: translate(0px,400px);
+  }
+
+  .bean-design-5 {
+    display: none
+  }
+
+  .bean-design-8 {
+    transform: translate(0,-100px);
+  }
+
+  .bean-design-9 {
+    transform: translate(0,-100px);
+  }
+  .retailers-logo img {
+    width: 100%
+  }
+}
+
+
+@media only screen and (max-width: 320px) {
+  .banner {
+    height: 480px;
+    top: 90px;
+  }
+  .product-1-768 .img03,
+  .product-2-768 .img03,
+  .product-3-768 .img03,
+  .product-4-768 .img03 {
+    width: 260px
+  }
+
+  .sectionimage {
+    margin-top: 450px;
+  }
+
+  .retailers-logo img {
+    width: 100%
+  }
+  h1 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 27px
+  }
+  
+  .bean-design-2 {
+    display: none
+  }
+
+  .bean-design-3 {
+    transform: translate(0px,430px);
+  }
+  .bean-design-4 {
+  transform: translate(0px,-50px);
+  }
+
+  .bean-design-8 {
+    display: none
+  }
+  .bean-design-7 {
+    transform: translate(0,-80px);
+  }
+  
+}
+
